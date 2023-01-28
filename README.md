@@ -1,7 +1,7 @@
 LSTM Bitcoin Price Prediction
 
 - This repository contains a script for training an LSTM model to predict 
-the future closing prices of Bitcoin using historical data.The model is 
+the future closing prices of Bitcoin using historical data. The model is 
 trained on data of Bitcoin prices obtained from Yahoo Finance.
 
 Prerequisites
