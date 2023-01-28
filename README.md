@@ -29,7 +29,8 @@ The script first reads in historical data of Bitcoin prices from a CSV file, and
 
 The script then splits the data into training and test sets, and converts the data into a time series dataset. An LSTM model is then created and trained on the training data, and predictions are made for the next 24 hours.
 
-Finally, the script plots the actual and predicted price trends, and displays the plot.
+Finally, the script plots the actual and predicted price trends, and displays the plot. Im also aware of the mislabeling of graphs, but as with all prediction 
+its a trend not a set value, so mislabel it as you wish.
 
      /\_/\     
     ( o.o )    
