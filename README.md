@@ -1,26 +1,26 @@
-LSTM Bitcoin Price Prediction_
+LSTM Bitcoin Price Prediction_:
 This repository contains a script for training an LSTM model to predict 
 the future closing prices of Bitcoin using historical data.The model is 
 trained on data of Bitcoin prices obtained from Yahoo Finance.
 
-Prerequisites_
-Python 3.6 or higher
-Tensorflow 2.0 or higher
-Numpy
-Pandas
-Sklearn
-Matplotlib
-Keras
+Prerequisites_:
+- Python 3.6 or higher
+- Tensorflow 2.0 or higher
+- Numpy
+- Pandas
+- Sklearn
+- Matplotlib
+- Keras
 
-Installing_
+Installing_:
 You can install all prerequisites by running
   !pip install pandas numpy scikit-learn keras matplotlib
 
-Running the script_
+Running the script_:
 To run the script, simply execute the following command in your terminal:
   python lstm_crypto_price_prediction.py (or whatever your filename is)
 
-How the code works_
+How the code works_:
 The script first reads in historical data of Bitcoin prices from a CSV file,
 and sorts the data by date. It then selects a subset of the data as the features 
 to be used for prediction, and scales the data to be in the range of 0 to 1.
