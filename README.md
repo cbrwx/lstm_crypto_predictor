@@ -21,7 +21,7 @@ You can install all prerequisites by running
 Running the script_
 
 To run the script, simply execute the following command in your terminal:
-  python lstm_btc_price_prediction.py
+  python lstm_crypto_price_prediction.py (or whatever your filename is)
 
 How the code works_
 
