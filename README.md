@@ -35,3 +35,4 @@ the plot. Im also aware of the mislabeling of graphs, but as with all prediction
 its a trend not a set value, so mislabel it as you wish.
 
 cbrwx
+(x predicts this will not predict snitzels, do not spend your money on anything this predicts, just for testing purposes and an extra indicator.)
