@@ -15,12 +15,14 @@ Prerequisites
 
  Installing
 - You can install all prerequisites by running
+```
   !pip install pandas numpy scikit-learn keras matplotlib
-
+```
 Running the script
 - To run the script, simply execute the following command in your terminal:
+```
   python lstm_crypto_price_prediction.py (or whatever your filename is)
-
+```
 How the code works
 - The script first reads in historical data of Bitcoin prices from a CSV file,
 and sorts the data by date. It then selects a subset of the data as the features 
@@ -73,4 +75,5 @@ print("Accuracy: %.2f%% (%.2f%%)" % (cv_results.mean()*100, cv_results.std()*100
 ```
 
 - Do not use this for any commercial ideas, it will surely ruin you!
+
 cbrwx
