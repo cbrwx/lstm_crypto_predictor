@@ -37,7 +37,7 @@ its a trend not a set value, so mislabel it as you wish.
 There are several ways to improve this code:
 - Data preprocessing: The code uses only the 'Open', 'High', 'Low', 'Close', 'Volume' columns as features to be predicted. However, you may want to consider adding other relevant features, such as technical indicators or macroeconomic data, to improve the model's performance.
 
-- Model architecture: The code uses a single LSTM layer with 50 units? You may want to experiment with different architectures, such as adding more LSTM layers or using a combination of LSTM and other types of layers, to see if it improves the model's performance.
+- Model architecture: The code uses a single LSTM layer with 50 units. You may want to experiment with different architectures, such as adding more LSTM layers or using a combination of LSTM and other types of layers, to see if it improves the model's performance.
 
 - Hyperparameter tuning: The code uses a batch size of 1 and trains for x epochs. You may want to experiment with different batch sizes and number of epochs to see if it improves the model's performance.
 
