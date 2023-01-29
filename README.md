@@ -47,5 +47,30 @@ There are several ways to improve this code:
 
 - Testing with different optimization algorithm : Try testing the model with different optimization algorithm and see if it improves the performance.
 
-cbrwx
+- You can use KFold cross-validation in scikit-learn to evaluate the model and determine the best hyperparameters for the LSTM network. Here is an example code that implements KFold cross-validation: 
+```
+from keras.wrappers.scikit_learn import KerasClassifier
+from sklearn.model_selection import KFold, cross_val_score
+
+def build_model():
+    model = Sequential()
+    model.add(LSTM(150, input_shape=(X_train.shape[1], 5)))
+    model.add(Dense(1))
+    model.compile(loss='mean_squared_error', optimizer='adam')
+    return model
+
+# Wrap the LSTM model in a KerasClassifier object
+model = KerasClassifier(build_fn=build_model, epochs=100, batch_size=1, verbose=1)
+
+# Define the number of folds for the KFold cross-validation
+kfold = KFold(n_splits=5, shuffle=True, random_state=7)
+
+# Calculate the cross-validation scores using KFold
+cv_results = cross_val_score(model, X_train, y_train, cv=kfold)
+
+# Print the mean and standard deviation of the cross-validation scores
+print("Accuracy: %.2f%% (%.2f%%)" % (cv_results.mean()*100, cv_results.std()*100))
+```
+
 - Do not use this for any commercial ideas, it will surely ruin you!
+cbrwx
