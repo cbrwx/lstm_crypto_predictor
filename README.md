@@ -13,7 +13,6 @@ Usage
 - Clone the repository to your local machine.
 - Install the required libraries.
 - Run the code using a Python environment.
-The tool will output a plot of the predicted asset prices for the next 30 days.
 
 Data
 - The tool uses daily data of 'Close', 'Open', 'High', 'Low', and 'Volume' values from a CSV file. The data is sorted by the 'Date' column and scaled to be in the range of (0, 1). The data is then split into training, validation, and test sets. The look_back value is set to 30, which means that the model will use the last 30 days of data to make predictions for the next day.
