@@ -28,7 +28,7 @@ Detailed
 
 - The script starts by importing the necessary libraries, including pandas, numpy, scikit-learn, matplotlib, tensorflow, and Keras. Then, it sets up the styling of the matplotlib plot by configuring various parameters such as the background color and text color.
 
-- The CSV file containing the Bitcoin prices is then read and sorted by the 'Date' column. The 'Close', 'Open', 'High', 'Low', and 'Volume' columns are selected as the features to be predicted. The feature data is then scaled to be in the range (0, 1) using the MinMaxScaler from scikit-learn.
+- The CSV file containing the asset prices is then read and sorted by the 'Date' column. The 'Close', 'Open', 'High', 'Low', and 'Volume' columns are selected as the features to be predicted. The feature data is then scaled to be in the range (0, 1) using the MinMaxScaler from scikit-learn.
 
 - The feature data is then split into training, validation, and test sets. The feature data is then converted into a time series dataset using the create_dataset function. The look_back value is set to 30, which means that the model will use the previous 30 days of data to predict the next day's closing price.
 
