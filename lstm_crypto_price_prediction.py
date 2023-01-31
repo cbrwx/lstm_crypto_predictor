@@ -27,7 +27,7 @@ plt.rcParams['grid.color'] = 'white'
 plt.rcParams['text.color'] = 'white'
 
 # Read the CSV file, using data from yahoo, so it needs to feature data into a time series dataset
-df = pd.read_csv('http://lillegaardtannklinikk.no/1/BTC-USD.csv', header=0, parse_dates=['Date'])
+df = pd.read_csv('optionalurlorfilenamedirectlyfromurdrive.csv', header=0, parse_dates=['Date'])
 
 # Sort the data by the 'Date' column
 df = df.sort_values(by='Date')
