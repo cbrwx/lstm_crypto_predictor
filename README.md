@@ -8,11 +8,13 @@ Requirements
 - matplotlib
 - TensorFlow
 - Keras
+
 Usage
 - Clone the repository to your local machine.
 - Install the required libraries.
 - Run the code using a Python environment.
 The tool will output a plot of the predicted asset prices for the next 30 days.
+
 Data
 - The tool uses daily data of 'Close', 'Open', 'High', 'Low', and 'Volume' values from a CSV file. The data is sorted by the 'Date' column and scaled to be in the range of (0, 1). The data is then split into training, validation, and test sets. The look_back value is set to 30, which means that the model will use the last 30 days of data to make predictions for the next day.
 
@@ -34,8 +36,6 @@ Detailed
 - The feature data is then reshaped to be used in the LSTM model. The LSTM model is created using the Sequential class from Keras and is compiled using the mean_squared_error loss function and the Adam optimizer. The model is then fit to the training data using the fit method.
 
 - Finally, the model is used to make predictions for the next 25 days.
-
-
 
 Disclaimer
 - The tool is provided for educational purposes only and is not intended for use as a sole indicator for investment decisions. Use the tool at your own risk. The author of the tool does not assume any responsibility for any investment decisions made based on the use of the tool.
