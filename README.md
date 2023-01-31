@@ -38,3 +38,5 @@ Detailed
 
 Disclaimer
 - The tool is provided for educational purposes only and is not intended for use as a sole indicator for investment decisions. Use the tool at your own risk. The author of the tool does not assume any responsibility for any investment decisions made based on the use of the tool.
+
+.cbrwx
