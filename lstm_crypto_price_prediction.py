@@ -97,7 +97,6 @@ fig.set_facecolor('black')
 # Set line color of actual price curve to signal green
 ax1.plot(y_test[:24], label="Price factor", color='#9aff9a')
 ax1.legend(loc="upper left")
-ax1.text(0.8, 0.2, 'cbrwx trend prediction', fontsize=10, transform=plt.gcf().transFigure)
 
 # Set line color of predicted price trend to signal green
 ax2.plot(predictions, label="Predicted Price trend next 25 days", color='#9aff9a', linestyle='dashed')
