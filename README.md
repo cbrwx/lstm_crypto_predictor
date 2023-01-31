@@ -1,4 +1,3 @@
-Asset Price Forecasting Tool
 Overview
 -This tool is an implementation of LSTM (Long Short-Term Memory) network to forecast asset prices. The tool uses historical daily data of 'Close', 'Open', 'High', 'Low', and 'Volume' values from a CSV file to train the model and make predictions. The tool is written in Python and uses libraries such as pandas, numpy, scikit-learn, matplotlib and TensorFlow. The tool is not intended for use as a sole indicator for investment decisions, but may serve as a supplementary indicator within a broader investment strategy.
 
